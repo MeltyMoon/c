@@ -260,9 +260,11 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
+
 body {
     margin: 0
 }
+
 article,
 aside,
 footer,
@@ -444,10 +446,11 @@ canvas {
 template {
     display: none
 }
+
 :root {
-    --pf-body-text-color: #000;
+    --pf-body-text-color: var(--text);
     --pf-body-bg-color: #f5f8fa;
-    --pf-background: #f5f8fa;
+    --pf-background: var(--mantle);
     --pf-surface: #fff;
     --pf-primary: #0f4c81;
     --pf-primary-variant: #082c4d;
