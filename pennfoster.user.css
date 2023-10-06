@@ -255,6 +255,37 @@
 	}
 }
 
+:root {
+	--pf-body-text-color: var(--text);
+	--pf-body-bg-color: var(--mantle);
+	--pf-background: var(--mantle);
+	--pf-surface: #fff;
+	--pf-primary: #0f4c81;
+	--pf-primary-variant: #082c4d;
+	--pf-secondary: #0071f3;
+	--pf-secondary-variant: #2667bd;
+	--pf-error: var(--red);
+	--pf-accent-orange: var(--maroon);
+	--pf-accent-green: var(--green);
+	--pf-accent-yellow: var(--yellow);
+	--pf-accent-khaki: #baac9b;
+	--pf-btn-disabled-color: rgba(0, 0, 0, 0.3);
+	--pf-btn-disabled-bg: rgba(0, 0, 0, 0.04);
+	--pf-btn-primary-color: var(--overlay2);
+	--pf-btn-primary-bg: var(--accent);
+	--pf-btn-primary-bg-hover: #0f4c81;
+	--pf-btn-secondary-color: #0071f3;
+	--pf-btn-secondary-bg: #fff;
+	--pf-btn-secondary-color-hover: #0f4c81;
+	--pf-body-font-size: 1rem;
+	--pf-body-font-weight: 300;
+	--pf-h1-font-size: 3rem;
+	--pf-h2-font-size: 2.5rem;
+	--pf-h3-font-size: 2rem;
+	--pf-h4-font-size: 1.5rem;
+	--pf-h5-font-size: 1.25rem
+}
+
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -447,36 +478,6 @@ template {
     display: none
 }
 
-:root {
-    --pf-body-text-color: var(--text);
-    --pf-body-bg-color: #f5f8fa;
-    --pf-background: var(--mantle);
-    --pf-surface: #fff;
-    --pf-primary: #0f4c81;
-    --pf-primary-variant: #082c4d;
-    --pf-secondary: #0071f3;
-    --pf-secondary-variant: #2667bd;
-    --pf-error: #d82a21;
-    --pf-accent-orange: #ff7247;
-    --pf-accent-green: #1f997e;
-    --pf-accent-yellow: #ffcf4d;
-    --pf-accent-khaki: #baac9b;
-    --pf-btn-disabled-color: rgba(0, 0, 0, 0.3);
-    --pf-btn-disabled-bg: rgba(0, 0, 0, 0.04);
-    --pf-btn-primary-color: #fff;
-    --pf-btn-primary-bg: #0071f3;
-    --pf-btn-primary-bg-hover: #0f4c81;
-    --pf-btn-secondary-color: #0071f3;
-    --pf-btn-secondary-bg: #fff;
-    --pf-btn-secondary-color-hover: #0f4c81;
-    --pf-body-font-size: 1rem;
-    --pf-body-font-weight: 300;
-    --pf-h1-font-size: 3rem;
-    --pf-h2-font-size: 2.5rem;
-    --pf-h3-font-size: 2rem;
-    --pf-h4-font-size: 1.5rem;
-    --pf-h5-font-size: 1.25rem
-}
 .pf-button {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
@@ -962,61 +963,3 @@ input[type=number] {
 .pf-typographyMargin {
     margin-left: 29px
 }
-/*body, html {
-background-color: var(--ctp-mocha-base);
-color: var(--ctp-mocha-text);
-}
-.navbar, .sidenav {
-background-color: var(--ctp-mocha-crust) !important;
-color: var(--ctp-mocha-text);
-}
-.jss3, .jss4 {
-background-color: var(--ctp-mocha-surface0);
-}
-.MuiBox-root, .widget header, .MuiListSubheader-root {
-background: var(--ctp-mocha-surface0) !important;
-background-color: var(--ctp-mocha-surface0) !important;
-color: var(--ctp-mocha-text) !important;
-}
-h1, h2, h3, .MuiTypography-root {
-color: var(--ctp-mocha-text) !important;
-}
-.MuiOutlinedInput-root, .css-1gnht4k, .css-feqhe6, .css-1bpxq8o, .MuiListItem-root, .widget, .widget-body {
-background-color: var(--ctp-mocha-surface0) !important;
-color: var(--ctp-mocha-subtext0) !important;
-}
-.MuiOutlinedInput-root.Mui-error {
-border-color: var(--ctp-mocha-red);
-border: none !important;
-}
-.css-12k5iq5, .pf-icon--none, .pf-color--lighter-3, .pf-end-icon-cursor, .MuiInputLabel-root, .widget-body p, .dark-text {
-color: var(--ctp-mocha-subtext0) !important;	
-}
-.pf-button--tertiary {
-padding: 12px 24px;
-}
-.css-bryreb {
-text-align: center;
-}
-.css-1og28tz.Mui-error {
-color: var(--ctp-mocha-red);
-}
-.jss24 {
-background: var(--ctp-mocha-surface1);
-color: var(--ctp-mocha-subtext2);
-}
-.uiOutlinedInput-input:autofill, .css-1gnht4k:-webkit-autofill {
--webkit-text-fill-color: none !important;
-background: none !important;
-}
-.pf-button--tertiary, 
-.pf-button--primary,
-.btn-main {
-background-color: var(--ctp-mocha-accent) !important;
-color: var(--ctp-mocha-overlay0) !important;
-}
-.btn-main-inverse {
-color: var(--ctp-mocha-accent) !important;
-border-color: var(--ctp-mocha-accent) !important;
-background-color: var(--ctp-mocha-surface0) !important;
-}*/
